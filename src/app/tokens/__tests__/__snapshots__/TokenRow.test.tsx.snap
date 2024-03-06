@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TokenRow renders correctly 1`] = `
+<table
+  className="chakra-table css-0"
+>
+  <tr
+    className="css-0"
+  >
+    <td
+      className="css-15d3wjr"
+    >
+      <div
+        className="css-axw7ok"
+      >
+        <img
+          alt="TT"
+          height={36}
+          onError={[Function]}
+          src="https://example.com/token.png"
+          style={
+            Object {
+              "marginRight": "16px",
+            }
+          }
+          width={36}
+        />
+        <a
+          className="chakra-link css-hygcjl"
+          href="/token/0x5678?chain=mainnet"
+        >
+          TestToken
+           
+          (TT)
+        </a>
+      </div>
+    </td>
+    <td
+      className="css-55yph6"
+    >
+      <span
+        className="chakra-text css-q62vf"
+      >
+        <a
+          className="chakra-link css-0"
+          href="/txid/0x1234?chain=mainnet"
+        >
+          0x1234
+        </a>
+      </span>
+    </td>
+    <td
+      className="css-1ttiw4m"
+      data-is-numeric={true}
+    >
+      <span
+        className="chakra-text css-ae4fie"
+      >
+        1.00M
+      </span>
+    </td>
+  </tr>
+</table>
+`;
