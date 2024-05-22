@@ -815,7 +815,7 @@ export const clarity = {
       signature:
         '(define-public (function-name (arg-name-0 arg-type-0) (arg-name-1 arg-type-1) ...) function-body)',
       description:
-        '`define-public` is used to define a _public_ function and transaction for a smart contract. Public\nfunctions are callable from other smart contracts and may be invoked directly by users by submitting a transaction\nto the Base blockchain.\n\nLike other kinds of definition statements, `define-public` may only be used at the top level of a smart contract\ndefinition (i.e., you cannot put a define statement in the middle of a function body).\n\nPublic functions _must_ return a ResponseType (using either `ok` or `err`). Any datamap modifications performed by\na public function is aborted if the function returns an `err` type. Public functions may be invoked by other\ncontracts via `contract-call?`.',
+        '`define-public` is used to define a _public_ function and transaction for a smart contract. Public\nfunctions are callable from other smart contracts and may be invoked directly by users by submitting a transaction\nto the Basechain.\n\nLike other kinds of definition statements, `define-public` may only be used at the top level of a smart contract\ndefinition (i.e., you cannot put a define statement in the middle of a function body).\n\nPublic functions _must_ return a ResponseType (using either `ok` or `err`). Any datamap modifications performed by\na public function is aborted if the function returns an `err` type. Public functions may be invoked by other\ncontracts via `contract-call?`.',
       example:
         '\n(define-public (hello-world (input int))\n  (begin (print (+ 2 input))\n         (ok input)))\n',
     },
@@ -918,7 +918,7 @@ export const clarity = {
     {
       name: 'block-height',
       output_type: 'uint',
-      description: 'Returns the current block height of the Base blockchain as an uint',
+      description: 'Returns the current block height of the Basechain as an uint',
       example:
         '(> block-height 1000) ;; returns true if the current block-height has passed 1000 blocks.',
     },

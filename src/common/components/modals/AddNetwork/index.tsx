@@ -25,7 +25,7 @@ export const AddNetworkModal: FC = () => {
               target="_blank"
               color={'accent'}
             >
-              Base Blockchain API
+              Basechain API
             </TextLink>
             . Make sure you review and trust the host before you add it.
           </Text>

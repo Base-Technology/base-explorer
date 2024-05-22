@@ -1,6 +1,6 @@
 {
   "name": "@hiro/explorer",
-  "description": "The source code for the Base Blockchain explorer.",
+  "description": "The source code for the Basechain explorer.",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "next build",

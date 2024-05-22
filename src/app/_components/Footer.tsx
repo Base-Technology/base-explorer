@@ -49,7 +49,7 @@ export const Footer: FC = () => {
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              Found a bug in the Base Blockchain?
+              Found a bug in the Basechain?
             </FooterLink>
           </Flex>
           <Box>

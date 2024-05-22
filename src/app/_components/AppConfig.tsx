@@ -42,7 +42,7 @@ export const AppConfig: React.FC<{
     <Connect
       authOptions={{
         appDetails: {
-          name: 'Base Explorer',
+          name: 'Basechain Explorer',
           icon: '/stx-circle.png',
         },
         userSession,

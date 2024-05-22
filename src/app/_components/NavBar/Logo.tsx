@@ -13,7 +13,7 @@ export const Logo: FC = () => {
         color="white"
         flexShrink={0}
         aria-label="Homepage"
-        title="Base Explorer"
+        title="Basechain Explorer"
       />
     </ExplorerLink>
   );

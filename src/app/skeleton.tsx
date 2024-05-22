@@ -13,7 +13,7 @@ import { Wrapper } from './_components/Stats/Wrapper';
 export default function Skeleton() {
   return (
     <>
-      <PageTitle data-test="homepage-title">Stacks Explorer</PageTitle>
+      <PageTitle data-test="homepage-title">Basechain Explorer</PageTitle>
       <Wrapper>
         <SkeletonStatSection borderRightWidth={['0px', '0px', '1px', '1px']} />
         <SkeletonStatSection borderRightWidth={['0px', '0px', '0px', '1px']} />

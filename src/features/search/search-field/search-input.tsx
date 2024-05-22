@@ -17,7 +17,7 @@ export function SearchInput(props: InputProps) {
       transitionProperty="border,box-shadow"
       boxShadow={'0 0 0 1px var(--stacks-colors-whiteAlpha-200)'}
       autoComplete="off"
-      placeholder="Search the Base blockchain"
+      placeholder="Search the Basechain"
       pl={12}
       maxW={'lg'}
       _placeholder={{ color: 'white' }}

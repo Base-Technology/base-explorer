@@ -3,7 +3,6 @@ out/
 node_modules/
 tests/screenshots/*
 .env.local
-.next
 .idea
 .DS_Store
 .now
@@ -15,6 +14,8 @@ yalc.lock
 .vercel
 yarn-error.log
 coverage
+.history
+.next
 
 # Sentry
 .sentryclirc

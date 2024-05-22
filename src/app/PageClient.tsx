@@ -30,7 +30,7 @@ export default function Home() {
   const { activeNetwork, activeNetworkKey } = useGlobalContext();
   return (
     <>
-      <PageTitle data-test="homepage-title">Base Explorer</PageTitle>
+      <PageTitle data-test="homepage-title">Basechain Explorer</PageTitle>
       {!activeNetwork.isSubnet && <Stats />}
       <Grid
         gap="7"

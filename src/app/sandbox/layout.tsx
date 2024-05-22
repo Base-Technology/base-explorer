@@ -8,7 +8,7 @@ export async function generateMetadata(
   { params }: any,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
-  const title = `Sandbox - Base Explorer by Base`;
+  const title = `Sandbox - Basechain Explorer by Base`;
   return Promise.resolve({
     ...meta,
     title,

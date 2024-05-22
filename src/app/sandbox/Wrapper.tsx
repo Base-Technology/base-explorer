@@ -48,7 +48,7 @@ export function Wrapper({ children }: { children: ReactNode }) {
         px={0}
         title={
           <Flex height={6} alignItems={'center'}>
-            Base Explorer Sandbox
+            Basechain Explorer Sandbox
           </Flex>
         }
         topRight={
